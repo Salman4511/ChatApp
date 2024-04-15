@@ -27,7 +27,7 @@ class HomeScreen extends StatelessWidget {
               onPressed: () {},
               icon: const Icon(
                 Icons.settings,
-                color: Colors.green,
+                color: kgreen,
                 size: 35,
               )),
         ],

@@ -1,3 +1,4 @@
+import 'package:chat_app/constants/constants.dart';
 import 'package:chat_app/view/screens/chat_list_screen/chat_list_screen.dart';
 import 'package:chat_app/view/screens/home_screen/home_screen.dart';
 import 'package:chat_app/view/screens/menu_screen/menu_screen.dart';
@@ -30,24 +31,38 @@ class _BottomNavBarState extends State<BottomNavBar> {
     return Scaffold(
       body: _pages[_selectedIndex],
       bottomNavigationBar: BottomNavigationBar(
-        
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            label: 'Home',
+            icon: Icon(
+              Icons.home,
+              color: kblack,
+            ),
+            label: '',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.chat_bubble_outline_outlined),
-            label: 'Chat',
+            icon: Icon(
+              Icons.chat_bubble_outline_outlined,
+              color: kblack,
+            ),
+            label: '',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.person),
-            label: 'User',
+            icon: Icon(
+              Icons.person,
+              color: kblack,
+            ),
+            label: '',
           ),
         ],
         currentIndex: _selectedIndex,
         selectedItemColor: Colors.grey,
         onTap: _onItemTapped,
+        unselectedFontSize: 14.0,
+        elevation: 8.0,
+        type: BottomNavigationBarType.fixed,
+        showSelectedLabels: true,
+        showUnselectedLabels: true,
+        iconSize: 40.0,
       ),
     );
   }

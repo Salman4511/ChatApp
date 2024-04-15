@@ -26,7 +26,7 @@ class ChatListScrreen extends StatelessWidget {
                         onPressed: () {},
                         icon: const Icon(
                           Icons.add_circle,
-                          color: Colors.green,
+                          color: kgreen,
                           size: 30,
                         ))
                   ],
@@ -80,7 +80,7 @@ class ChatListScrreen extends StatelessWidget {
                     onPressed: () {},
                     icon: const Icon(
                       Icons.arrow_back,
-                      color: Colors.white,
+                      color: kwhite,
                     )),
                 kwidth40,
                 Center(

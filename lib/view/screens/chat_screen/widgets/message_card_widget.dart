@@ -1,3 +1,4 @@
+import 'package:chat_app/constants/constants.dart';
 import 'package:flutter/material.dart';
 
 class MessageCardWidget extends StatelessWidget {
@@ -13,8 +14,8 @@ class MessageCardWidget extends StatelessWidget {
         width: 280,
         decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(15),
-            color: Colors.white,
-            border: Border.all(color: Colors.grey)),
+            color: kwhite,
+            border: Border.all(color: kgrey)),
         child: Padding(
           padding: const EdgeInsets.all(8.0),
           child: Text(message),

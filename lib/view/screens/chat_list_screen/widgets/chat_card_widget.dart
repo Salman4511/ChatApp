@@ -20,9 +20,9 @@ class ChatCardWidget extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.all(8.0),
       child: Card(
-        color: Colors.white,
+        color: kwhite,
         child: ListTile(
-          tileColor: Colors.white,
+          tileColor: kwhite,
           contentPadding:
               const EdgeInsets.symmetric(vertical: 10, horizontal: 16),
           title: Text(
@@ -57,7 +57,7 @@ class ChatCardWidget extends StatelessWidget {
           ),
           trailing: const Icon(
             Icons.more_horiz_rounded,
-            color: Colors.green,
+            color: kgreen,
             size: 30,
           ),
           onTap: () {

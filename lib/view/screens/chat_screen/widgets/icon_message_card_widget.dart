@@ -23,7 +23,7 @@ class IconMessageCardWidget extends StatelessWidget {
             width: 280,
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(15),
-                color: Colors.white,
+                color: kwhite,
                 border: Border.all(color: Colors.grey)),
             child: Padding(
               padding: const EdgeInsets.all(8.0),

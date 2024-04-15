@@ -29,7 +29,7 @@ class ChatScreen extends StatelessWidget {
               kwidth120,
               const Text(
                 'November 2,2023',
-                style: TextStyle(color: Colors.grey),
+                style: TextStyle(color:kgrey),
               ),
             ],
           ),
@@ -51,7 +51,7 @@ class ChatScreen extends StatelessWidget {
               kwidth10,
               const CircleAvatar(
                 radius: 25,
-                backgroundColor: Colors.white,
+                backgroundColor:kwhite,
                 child: Icon(
                   Icons.mic,
                   size: 40,
@@ -65,14 +65,14 @@ class ChatScreen extends StatelessWidget {
                     decoration: InputDecoration(
                         border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(10)),
-                        fillColor: Colors.white,
+                        fillColor: kwhite,
                         filled: true,
                         hintText: 'Hier schreiben...',
                         suffixIcon: IconButton(
                             onPressed: () {},
                             icon: const Icon(
                               Icons.send,
-                              color: Colors.grey,
+                              color: kgrey,
                             ))),
                   ))
             ],

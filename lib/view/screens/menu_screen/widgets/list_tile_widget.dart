@@ -25,11 +25,11 @@ class ListTileWidget extends StatelessWidget {
           ),
           leading: Icon(
             icon,
-            color: Colors.green,
+            color: kgreen,
           ),
           trailing: const Icon(
             Icons.arrow_forward,
-            color: Colors.green,
+            color: kgreen,
             size: 30,
           ),
           onTap: () {},

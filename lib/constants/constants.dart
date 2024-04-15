@@ -70,3 +70,7 @@ SizedBox kheight45 = const SizedBox(height: 45);
 // Colors
 
 const kbackgroundColor = Color.fromARGB(255, 247, 255, 237);
+const kblack = Colors.black;
+const kgrey = Colors.grey;
+const kgreen = Colors.green;
+const kwhite = Colors.white;
