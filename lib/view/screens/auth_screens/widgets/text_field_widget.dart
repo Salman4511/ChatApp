@@ -2,12 +2,12 @@ import 'package:chat_app/constants/constants.dart';
 import 'package:flutter/material.dart';
 
 class TextFieldWidget extends StatelessWidget {
-  final IconData icon;
+  final IconData? icon;
   final String hintText;
   final String helperText;
   final IconData? suffixIcon;
   const TextFieldWidget({
-    super.key, required this.icon, required this.hintText, required this.helperText,this.suffixIcon,
+    super.key,this.icon, required this.hintText, required this.helperText,this.suffixIcon,
   });
 
   @override
@@ -36,6 +36,8 @@ class TextFieldWidget extends StatelessWidget {
               hintStyle: textstyle2,
               border:
                   OutlineInputBorder(borderRadius: BorderRadius.circular(15)),
+                  contentPadding:
+                    const EdgeInsets.symmetric(vertical: 10, horizontal: 12),
                   suffixIcon:Icon(suffixIcon)
             ),
             

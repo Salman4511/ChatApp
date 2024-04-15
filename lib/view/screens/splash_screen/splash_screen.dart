@@ -8,25 +8,40 @@ class SplashScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return   Scaffold(
+    return Scaffold(
       backgroundColor: kbackgroundColor,
       body: Center(
         child: Column(
           children: [
             kheight300,
-            const Image(image: AssetImage('assets/images/download.png'),fit: BoxFit.cover,width: 150,),
-             Text('Willkommen bei ADHDrive',style:
-            textstyle3 ,),
-             Text(
+            const Image(
+              image: AssetImage('assets/images/download.png'),
+              fit: BoxFit.cover,
+              width: 150,
+            ),
+            Text(
+              'Willkommen bei ADHDrive',
+              style: textstyle3,
+            ),
+            Text(
               'Die App, bei der es um dich geht...',
               style: textstyle2,
             ),
             kheight200,
-            ElevatedButton(onPressed: (){
-              Navigator.push(context,CupertinoPageRoute(builder: (context) => const LandingScreen(),));
-            },style: elevatedbuttonstyle, 
-                                    child: Text('Los geht´s',style: 
-                                    textstyle1,),)
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    CupertinoPageRoute(
+                      builder: (context) => const LandingScreen(),
+                    ));
+              },
+              style: elevatedbuttonstyle,
+              child: Text(
+                'Los geht´s',
+                style: textstyle1,
+              ),
+            )
           ],
         ),
       ),

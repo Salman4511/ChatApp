@@ -22,6 +22,15 @@ TextStyle textstyle4 = const TextStyle(
   fontSize: 28,
   fontWeight: FontWeight.bold,
 );
+TextStyle textstyle5 = const TextStyle(
+  fontSize: 22,
+  fontWeight: FontWeight.bold,
+);
+TextStyle textstyle6 =
+    const TextStyle(fontSize: 22, fontWeight: FontWeight.bold, color: Colors.green);
+
+TextStyle textstyle7 = const TextStyle(fontSize: 40,fontWeight: FontWeight.bold,color: Colors.white);
+TextStyle textstyle8 = const TextStyle(color: Colors.white);
 
 // Ksizedbox
 
@@ -41,6 +50,14 @@ SizedBox kwidth30 = const SizedBox(
 SizedBox kwidth40 = const SizedBox(
   width: 40,
 );
+
+SizedBox kwidth120 = const SizedBox(
+  width: 120,
+);
+
+SizedBox kwidth10 = const SizedBox(
+  width: 10,
+);
 SizedBox kheight60 = const SizedBox(height: 60);
 SizedBox kheight5 = const SizedBox(
   height: 5,
@@ -48,6 +65,7 @@ SizedBox kheight5 = const SizedBox(
 SizedBox kheight10 = const SizedBox(
   height: 10,
 );
+SizedBox kheight45 = const SizedBox(height: 45);
 
 // Colors
 
